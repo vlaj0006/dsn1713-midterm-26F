@@ -1,13 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
 
 /* Set custom variables here */
+:root{
+  --bt-white: #F6F3ED;
+  --bt-white-rgb: 246, 243, 237;
+  --bt-green: #2e483a;
+  --bt-green-rgb: 46, 72, 58;
 
-
-
-
+  --bs-body-bg: var(--bt-white);
+  --bs-body-bg-rgb: var(--bt-white-rgb);
+  --bs-primary: var(--bt-green);
+  --bs-primary-rgb: var(--bt-green-rgb);
+  --bs-light: var(--bt-white);
+  --bs-light-rgb: var(--bt-white-rgb);
+  --btn
+}
 
 .navbar-brand {
-  color: #F6F3ED;
+  --bg-primary var(--bt-green);
+}
+
+.btn-primary{
+  --bs-btn-bg: var(--bt-green);
+  --bs-btn-border-color: var(--bt-green);
+  --bs-btn-color: var(--bt-white);
 }
 
 body {
@@ -20,7 +36,7 @@ h1, h2, h3 {
 
 #hero {
   height: 800px;
-  background-color: #E4E6DB;
+  background-color: var(--bt-white);
   background-image: url(../images/hero-bg-img.png);
   background-repeat: no-repeat;
   background-position: center;
