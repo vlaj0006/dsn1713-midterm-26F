@@ -24,6 +24,9 @@
   --bs-btn-bg: var(--bt-green);
   --bs-btn-border-color: var(--bt-green);
   --bs-btn-color: var(--bt-white);
+  --bs-btn-hover-bg: var(--bt-white);
+  --bs-btn-hover-border-color: var(--bt-white);
+  --bs-btn-hover-color: var(--bt-green);
 }
 
 body {
